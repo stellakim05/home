@@ -1,0 +1,49 @@
+body {
+    font-family: Copperplate, Fantasy;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    table-layout: fixed;
+}
+
+th{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    text-indent: 25px;
+
+}
+
+
+.small {
+    height: 30px;
+    font-size: 1.5em;
+    background-color: #f2f2f2;
+}
+
+.big1, .big2 {
+    height: auto;
+}
+
+td p {
+    text-align: left;
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
